@@ -19,7 +19,7 @@ st.title("Chat with PDF")
 st.write("---")
 
 # 파일 업로드
-uploaded_file = st.file_uploader("Upload PDF file",type=['pdf']])
+uploaded_file = st.file_uploader("Upload PDF file",type=['pdf'])
 st.write("---")
 
 def pdf_to_document(uploaded_file):
